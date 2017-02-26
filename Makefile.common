@@ -1,0 +1,5 @@
+LIBRETRO_COMM_DIR := $(CORE_DIR)/libretro-common
+INCFLAGS          := -I$(LIBRETRO_COMM_DIR)/include
+
+SOURCES_C := $(CORE_DIR)/test.c
+

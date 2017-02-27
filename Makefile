@@ -33,7 +33,7 @@ else ifneq ($(findstring MINGW,$(shell uname -a)),)
 	system_platform = win
 endif
 
-TARGET_NAME := test
+TARGET_NAME := test_netplay
 LIBM		= -lm
 
 ifeq ($(ARCHFLAGS),)

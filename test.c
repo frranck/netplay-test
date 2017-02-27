@@ -157,7 +157,7 @@ void retro_set_controller_port_device(unsigned port, unsigned device)
 void retro_get_system_info(struct retro_system_info *info)
 {
     memset(info, 0, sizeof(*info));
-    info->library_name     = __FILE__;
+    info->library_name     = "netplay-test";
     #ifdef GIT_VERSION
        info->library_version  = "1" GIT_VERSION;
     #else
